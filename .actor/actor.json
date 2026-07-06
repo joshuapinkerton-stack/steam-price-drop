@@ -1,0 +1,23 @@
+{
+  "actorSpecification": 1,
+  "name": "steam-price-drop",
+  "title": "Steam Price Drop Tracker",
+  "description": "Track Steam store prices, discounts, and release dates for top sellers and curated game lists.",
+  "version": "1.0",
+  "meta": {
+    "image": "",
+    "category": "ecommerce",
+    "actorUrl": "https://github.com/joshuapinkerton-stack/steam-price-drop"
+  },
+  "pricing": {
+    "payPerEvent": {
+      "events": [
+        { "name": "game_record", "pricePerUnit": 4 },
+        { "name": "store_snapshot", "pricePerUnit": 8 }
+      ]
+    },
+    "pricingInfo": "Pay-per-Event: $0.04 per game record, $0.08 per store snapshot page."
+  },
+  "input": "./input_schema.json",
+  "output": "./output_schema.json"
+}

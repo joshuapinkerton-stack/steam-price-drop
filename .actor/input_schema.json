@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "title": "Steam Price Drop Input",
+  "description": "Configure the Steam search URL and crawl depth.",
+  "type": "object",
+  "properties": {
+    "searchUrl": {
+      "type": "string",
+      "title": "Search URL",
+      "description": "Base Steam store search URL.",
+      "editor": "textfield",
+      "default": "https://store.steampowered.com/search/?filter=topsellers"
+    },
+    "maxPages": {
+      "type": "integer",
+      "title": "Max Pages",
+      "description": "Number of search result pages to crawl.",
+      "editor": "number",
+      "default": 3
+    }
+  }
+}

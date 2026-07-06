@@ -1,0 +1,15 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Steam Price Drop Output",
+  "description": "Game pricing records.",
+  "type": "object",
+  "properties": {
+    "title": { "type": "string" },
+    "currentPrice": { "type": "string" },
+    "discountPercent": { "type": "string" },
+    "releaseDate": { "type": "string" },
+    "platforms": { "type": "string" },
+    "appUrl": { "type": "string" },
+    "detectedAt": { "type": "string" }
+  }
+}
